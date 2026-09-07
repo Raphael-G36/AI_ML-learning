@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Sizzling Bistro — Flame-Grilled Steakhouse, Victoria Island</title>
+<meta name="description" content="Flame-grilled steaks, gourmet burgers and signature mocktails at The Sizzling Bistro, 42 Canopy Runway, Victoria Island, Lagos.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="site-header" id="top">
+  <div class="header-inner">
+    <a class="wordmark" href="#top">
+      <span class="wordmark-main">Sizzling Bistro</span>
+      <span class="wordmark-sub">Victoria Island</span>
+    </a>
+    <nav class="main-nav" aria-label="Primary">
+      <a href="#menu">Menu</a>
+      <a href="#hours">Hours</a>
+      <a href="#reserve">Reservations</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a class="btn btn-ghost header-cta" href="https://wa.me/2348035550199" target="_blank" rel="noopener">WhatsApp Us</a>
+    <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="mobileNav" aria-label="Open menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+  <nav class="mobile-nav" id="mobileNav" aria-label="Mobile">
+    <a href="#menu">Menu</a>
+    <a href="#hours">Hours</a>
+    <a href="#reserve">Reservations</a>
+    <a href="#contact">Contact</a>
+    <a href="https://wa.me/2348035550199" target="_blank" rel="noopener">WhatsApp Us</a>
+  </nav>
+</header>
+
+<main>
+
+  <section class="hero">
+    <div class="hero-glow" aria-hidden="true"></div>
+    <div class="hero-inner">
+      <p class="hero-kicker">42 Canopy Runway, Victoria Island, Lagos</p>
+      <h1 class="hero-title">Fire does<br>the talking.</h1>
+      <p class="hero-lede">A premium grill house built around live-flame steaks, gourmet burgers and signature mocktails. Smart casual, always bold.</p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="#menu">See the menu</a>
+        <a class="btn btn-outline" href="#reserve">Reserve a table</a>
+      </div>
+      <ul class="hero-stats">
+        <li><span class="stat-num">800g</span><span class="stat-label">bone-in tomahawk, our signature cut</span></li>
+        <li><span class="stat-num">7</span><span class="stat-label">days a week, open from noon</span></li>
+        <li><span class="stat-num">1</span><span class="stat-label">rule: no beachwear at the table</span></li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="about" id="about">
+    <div class="about-inner">
+      <div class="about-mark" aria-hidden="true">
+        <svg viewBox="0 0 200 200" width="120" height="120">
+          <path d="M100 10 C 60 60, 40 90, 60 130 C 70 150, 95 160, 100 190 C 105 160, 130 150, 140 130 C 160 90, 140 60, 100 10 Z" fill="none" stroke="currentColor" stroke-width="3"/>
+          <path d="M100 55 C 82 85, 74 100, 86 122 C 92 133, 102 138, 100 155" fill="none" stroke="currentColor" stroke-width="2" opacity="0.6"/>
+        </svg>
+      </div>
+      <div class="about-copy">
+        <h2>About the house</h2>
+        <p>The Sizzling Bistro is a premium grill house in the heart of Victoria Island. Every dish comes off live flame — steaks rested and finished with garlic butter, burgers charred to order, and a short menu that changes only when the fire tells us to.</p>
+        <p>We keep it simple: real cuts, honest prices, and a room that feels like an occasion even on a Tuesday.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="menu" id="menu">
+    <div class="menu-inner">
+      <div class="menu-heading">
+        <h2>The menu</h2>
+        <p>Four dishes, done properly. Ask your server about pairings.</p>
+      </div>
+
+      <ol class="menu-list">
+        <li class="menu-item">
+          <div class="menu-item-top">
+            <h3>Tomahawk Steak</h3>
+            <span class="menu-price">₦45,000</span>
+          </div>
+          <p class="menu-desc">Premium 800g ribeye on the bone, served with garlic butter and rosemary mash.</p>
+          <p class="menu-tag">Contains dairy / butter</p>
+        </li>
+
+        <li class="menu-item">
+          <div class="menu-item-top">
+            <h3>Flame-Grilled Chicken Burger</h3>
+            <span class="menu-price">₦12,500</span>
+          </div>
+          <p class="menu-desc">Spicy grilled chicken breast, cheddar cheese and house slaw, stacked in a brioche bun.</p>
+          <p class="menu-tag">Contains gluten, dairy</p>
+        </li>
+
+        <li class="menu-item">
+          <div class="menu-item-top">
+            <h3>Vegan Mushroom Risotto</h3>
+            <span class="menu-price">₦14,000</span>
+          </div>
+          <p class="menu-desc">Creamy arborio rice, wild mushrooms and truffle oil, finished with coconut cream.</p>
+          <p class="menu-tag menu-tag-good">Vegan &amp; gluten-free</p>
+        </li>
+
+        <li class="menu-item">
+          <div class="menu-item-top">
+            <h3>Signature Chapmans &amp; Mocktails</h3>
+            <span class="menu-price">₦4,500</span>
+          </div>
+          <p class="menu-desc">Our house-made rotation of chapmans and mocktails, mixed fresh at the bar.</p>
+          <p class="menu-tag">Priced per glass</p>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <section class="hours" id="hours">
+    <div class="hours-inner">
+      <div class="hours-block">
+        <h2>Hours</h2>
+        <dl class="hours-table">
+          <div class="hours-row">
+            <dt>Monday – Thursday</dt>
+            <dd>12:00 PM – 10:00 PM</dd>
+          </div>
+          <div class="hours-row">
+            <dt>Friday – Sunday</dt>
+            <dd>12:00 PM – 11:30 PM</dd>
+          </div>
+        </dl>
+        <p class="hours-note">Kitchen closes 30 minutes before the doors do.</p>
+      </div>
+
+      <div class="hours-block" id="reserve">
+        <h2>Reservations &amp; policy</h2>
+        <ul class="policy-list">
+          <li>Walk-ins are always welcome — weekend tables go quickly, so a reservation is worth it.</li>
+          <li>Groups of 8 or more need a ₦20,000 deposit to hold the table.</li>
+          <li>Dress code is smart casual. No beachwear, no bedroom slippers.</li>
+        </ul>
+        <a class="btn btn-primary" href="https://wa.me/2348035550199" target="_blank" rel="noopener">Reserve via WhatsApp</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <div class="contact-inner">
+      <h2>Find us</h2>
+      <div class="contact-grid">
+        <div class="contact-item">
+          <h3>Address</h3>
+          <p>42 Canopy Runway<br>Victoria Island, Lagos</p>
+        </div>
+        <div class="contact-item">
+          <h3>Phone / WhatsApp</h3>
+          <p><a href="tel:+2348035550199">+234 803 555 0199</a></p>
+        </div>
+        <div class="contact-item">
+          <h3>Email</h3>
+          <p><a href="mailto:hello@sizzlingbistro.com">hello@sizzlingbistro.com</a></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <p>&copy; <span id="year"></span> The Sizzling Bistro. Victoria Island, Lagos.</p>
+</footer>
+
+<script src="script.js"></script>
+
+<script>
+(function(){if(!window.chatbase||window.chatbase("getState")!=="initialized"){window.chatbase=(...args)=>{if(!window.chatbase.q){window.chatbase.q=[]}window.chatbase.q.push(arguments)};window.chatbase=new Proxy(window.chatbase,{get(target,prop){if(prop==="q"){return target.q}return(...args)=>target(prop,...args)}})}const onLoad=function(){const script=document.createElement("script");script.src="https://www.chatbase.co/embed.min.js";script.id="Bt6JLoQhwDwNG_sBHpCxn";script.domain="www.chatbase.co";document.body.appendChild(script)};if(document.readyState==="complete"){onLoad()}else{window.addEventListener("load",onLoad)}})();
+</script>
+
+</body>
+</html>
